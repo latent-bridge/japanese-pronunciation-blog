@@ -1,7 +1,796 @@
-:root{--paper:#faf8f1;--ink:#203d36;--muted:#5c6d63;--line:#d9ded2;--green:#254f46;--light:#e6ecde;--accent:#b15737;font-family:-apple-system,BlinkMacSystemFont,"Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;color:var(--ink);background:var(--paper);font-synthesis:none}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:2rem}body{margin:0}a{color:inherit;text-underline-offset:.22em}a:hover{color:var(--accent)}a:focus-visible,summary:focus-visible{outline:3px solid var(--accent);outline-offset:5px}::selection{background:#d7dfc8}header.header,main,footer{max-width:1120px;margin-inline:auto;padding-inline:40px}.header{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:112px;border-bottom:1px solid var(--line)}.brand{display:flex;align-items:center;gap:13px;text-decoration:none;font-weight:650;letter-spacing:.07em;font-size:20px}.brand-icon{background:var(--green);color:var(--paper);width:43px;height:46px;border-radius:15px 15px 4px 15px;font-family:serif;text-align:center;line-height:46px;font-size:32px}.brand small{display:block;letter-spacing:.12em;font-size:8px;font-weight:500;margin-top:7px}.header nav{display:flex;gap:30px;font-size:14px}.header nav a{text-decoration:none}.hero{display:grid;grid-template-columns:1.3fr 1fr;gap:68px;align-items:center;padding:80px 0 88px}.eyebrow{text-transform:uppercase;letter-spacing:.15em;font-size:12px;font-weight:600;color:var(--muted);margin:0 0 24px}h1,h2,h3{font-family:"Noto Serif TC","Songti TC","Yu Mincho",serif;font-weight:600;letter-spacing:.01em}h1{font-size:clamp(36px,4.5vw,54px);line-height:1.5;margin:0 0 22px}.lead{color:var(--muted);font-size:16px;line-height:2.05;margin:0 0 32px}.button{display:inline-flex;justify-content:space-between;gap:42px;align-items:center;text-decoration:none;background:var(--green);color:white;padding:15px 24px;border-radius:3px;font-size:14px}.button:hover{background:#16382f;color:white}.sound-note{background:var(--light);padding:28px 32px 24px;border-radius:4px;box-shadow:8px 8px 0 #f0eee4;transform:rotate(2deg)}.note-label{font-size:11px;letter-spacing:.12em;display:flex;justify-content:space-between;border-bottom:1px solid #c5d1be;padding-bottom:18px}.word{font-size:36px;letter-spacing:.09em;font-family:"Hiragino Mincho ProN","Yu Mincho",serif;margin-top:24px;white-space:nowrap}.word span{color:var(--accent)}.mora-line{display:flex;gap:5px;align-items:center;margin-top:10px}.mora-line i{display:block;width:30px;height:5px;background:#486b59;border-radius:3px}.mora-line i.long{background:var(--accent)}.mora-line span{font-size:11px;margin-left:8px}.sound-note p{font-size:12px;line-height:1.9;color:#486050;margin:25px 0 0}.sound-note small{font-size:10px}.section-heading{border-top:1px solid var(--line);padding-top:28px;display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}.section-heading .eyebrow{margin-bottom:12px}h2{font-size:28px;line-height:1.6;margin:0}.count{font-size:12px;color:var(--muted);white-space:nowrap}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}.article-card{display:block;text-decoration:none;border:1px solid var(--line);background:#fffdf7;border-radius:4px;padding:28px;transition:border-color .15s,transform .15s}.article-card:hover{border-color:var(--green);transform:translateY(-2px);color:var(--ink)}.card-meta{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}.card-meta span:first-child{color:var(--accent)}.article-card h3{font-size:24px;line-height:1.7;margin:22px 0 14px}.article-card p{font-size:14px;line-height:1.9;color:var(--muted)}.read{display:flex;justify-content:space-between;font-size:13px;margin-top:30px}.empty{grid-column:1/-1;border:1px dashed #becab9;border-radius:4px;padding:32px}.empty h3{margin:0 0 12px;font-size:23px}.empty p{font-size:14px;line-height:1.9;color:var(--muted);margin:0}.approach{display:grid;grid-template-columns:1fr 2fr;gap:40px;margin:80px 0;padding:36px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.approach h2{font-size:26px}.approach p:not(.eyebrow){color:var(--muted);font-size:15px;line-height:2}.text-link{font-size:13px}footer{display:flex;justify-content:space-between;align-items:center;gap:24px;padding-block:28px 40px;font-size:14px}footer small{display:block;color:var(--muted);font-size:11px;margin-top:10px}footer div{display:flex;gap:24px;font-size:12px}footer a{text-decoration:none}.narrow{max-width:700px;margin-inline:auto}.article-heading{max-width:840px;margin:0 auto;padding:44px 0 38px}.back{display:block;font-size:12px;color:var(--muted);margin-bottom:40px;text-decoration:none}.article-heading h1{font-size:clamp(32px,4.2vw,46px);line-height:1.55}.article-description{font-size:17px;color:var(--muted);line-height:1.9;max-width:650px}.byline{font-size:12px;color:var(--muted);margin-top:25px}.byline span{margin:0 12px}.prose{font-size:17px;line-height:2.05;overflow-wrap:anywhere}.prose h2{font-size:27px;margin:44px 0 16px}.prose h3{font-size:21px;margin:32px 0 12px}.prose p{margin:18px 0}.prose ul,.prose ol{padding-left:1.5em}.prose li{margin:8px 0}.prose [lang=ja]{font-family:"Hiragino Kaku Gothic ProN","Yu Gothic",sans-serif}.prose blockquote{margin:26px 0;padding:4px 24px;background:var(--light);border-left:3px solid var(--green);font-size:15px}.prose details{margin:24px 0;border:1px solid var(--line);border-radius:4px;padding:16px 22px;font-size:16px}.prose summary{cursor:pointer;font-weight:600}.prose table{border-collapse:collapse;width:100%;font-size:14px;line-height:1.8;margin:26px 0}.prose th,.prose td{padding:13px 12px;text-align:left;border-bottom:1px solid var(--line)}.prose th{background:var(--light)}.prose .mora-figure{margin:30px 0;padding:24px;background:#eeeee1;border-radius:4px}.mora-figure .mora-row{display:flex;align-items:center;gap:7px;margin:13px 0}.mora-row span{display:grid;place-items:center;width:42px;height:48px;background:#fffcf5;border:1px solid #d1d8c8;border-radius:4px;font-size:24px}.mora-row span.emphasis{background:var(--green);color:white}.mora-row b{font-size:13px;margin-left:10px;font-weight:500;white-space:nowrap}.mora-figure figcaption{font-size:12px;line-height:1.8;margin-top:16px;color:var(--muted)}.article-end{border-top:1px solid var(--line);margin-block:56px 60px;padding-top:24px;font-size:13px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px}.article-end p{flex-basis:100%;color:var(--muted)}.page-heading{max-width:700px;margin:60px auto 35px}.page-heading h1{font-size:42px}.page-heading+.prose{margin-bottom:70px}.review-banner{font-size:12px;background:#ffe8b4;color:#513b13;padding:10px;text-align:center}.skip{position:absolute;top:-90px;left:15px;padding:15px;background:var(--green);color:white;z-index:10}.skip:focus{top:10px}audio{width:100%;margin-block:14px}
-@media(max-width:760px){header.header,main,footer{padding-inline:24px}.header{min-height:88px}.brand{font-size:17px;gap:10px}.brand small{font-size:6px}.brand-icon{width:35px;height:39px;line-height:39px;font-size:27px}.header nav{gap:18px;font-size:13px}.hero{grid-template-columns:1fr;gap:46px;padding:48px 0 60px}.hero h1{font-size:42px}.sound-note{max-width:380px;width:100%;justify-self:center;transform:rotate(1deg)}.cards{grid-template-columns:1fr}.approach{grid-template-columns:1fr;gap:0;margin:52px 0 28px}.approach .eyebrow{margin-bottom:18px}.section-heading h2{font-size:23px}.article-card{padding:24px}.article-heading{padding-top:28px}.back{margin-bottom:30px}.article-heading h1{font-size:32px}.prose{font-size:16px}.prose h2{font-size:24px}.prose table{font-size:13px}.prose th,.prose td{padding:10px 7px}footer{align-items:flex-start;flex-direction:column;padding-bottom:28px}.mora-row span{width:36px;height:42px;font-size:22px}.mora-figure .mora-row{gap:5px}.prose .mora-figure{padding:18px 14px}.page-heading h1{font-size:34px}.article-heading .eyebrow{margin-bottom:18px}}
-@media(max-width:360px){header.header,main,footer{padding-inline:18px}.brand small{display:none}.header nav{gap:13px}.hero h1{font-size:36px}.mora-row span{width:31px}.word{font-size:31px}}
-@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.article-card{transition:none}}
+/* A 案「拍格」：一格一拍。黑、白、朱、黃的方塊構成。 */
 
-.keep,.prose td:first-child{white-space:nowrap}
+:root {
+  --ink: #111111;
+  --paper: #ffffff;
+  --red: #d9361e;
+  --yellow: #ffd400;
+  --blue: #1f3fd1;
+  --grey: #efefef;
+  --mid: #555555;
+  --zh: "PingFang TC", "Noto Sans TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+  --ja: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Yu Gothic", "Noto Sans JP", "Meiryo", sans-serif;
+  --cell: clamp(2.4rem, 12vw, 5.5rem);
+  --rule: 6px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--zh);
+  font-size: 1.0625rem;
+  line-height: 1.85;
+}
+
+[lang="ja"] {
+  font-family: var(--ja);
+}
+
+a {
+  color: var(--blue);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 2px;
+}
+
+a:hover {
+  color: var(--ink);
+}
+
+a:focus-visible,
+summary:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol,
+figure {
+  margin: 0;
+}
+
+.wrap {
+  max-width: 70rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.narrow {
+  max-width: 46rem;
+}
+
+.skip {
+  position: absolute;
+  left: -999rem;
+  top: 0;
+}
+
+.skip:focus {
+  left: 1rem;
+  top: 1rem;
+  z-index: 10;
+  background: var(--yellow);
+  color: var(--ink);
+  padding: 0.5rem 0.8rem;
+  font-weight: 700;
+}
+
+/* 提案標示 */
+
+.proposal {
+  background: var(--ink);
+  color: #ffffff;
+  font-size: 0.8125rem;
+  line-height: 1.5;
+}
+
+.proposal .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.25rem 1rem;
+  padding-top: 0.55rem;
+  padding-bottom: 0.55rem;
+}
+
+.proposal a {
+  color: var(--yellow);
+}
+
+.proposal a:focus-visible {
+  outline-color: var(--yellow);
+}
+
+/* 頁首 */
+
+.site-head {
+  border-bottom: var(--rule) solid var(--ink);
+}
+
+.site-head .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.logo {
+  display: inline-flex;
+  gap: 2px;
+  color: var(--ink);
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+}
+
+.logo span {
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 2px solid var(--ink);
+  font-size: 1.15rem;
+}
+
+/* 「發音」占兩格：一個音占兩拍的長音格 */
+.logo .long {
+  width: calc(4.2rem + 2px);
+  padding-left: 0.4em;
+  background: var(--red);
+  border-color: var(--red);
+  color: #ffffff;
+  letter-spacing: 0.4em;
+}
+
+.logo:hover span {
+  border-color: var(--blue);
+}
+
+.site-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1.25rem;
+  padding: 0;
+  list-style: none;
+  font-weight: 700;
+}
+
+.site-nav a {
+  display: inline-block;
+  padding: 0.3rem 0;
+  color: var(--ink);
+}
+
+/* 首頁主視覺 */
+
+.hero {
+  padding: 2.5rem 0 3rem;
+}
+
+.hero .wrap {
+  display: grid;
+  gap: 2.25rem;
+}
+
+.eyebrow {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--mid);
+}
+
+.hero h1 {
+  margin-top: 0.6rem;
+  font-size: clamp(2rem, 5.6vw, 3.9rem);
+  font-weight: 900;
+  line-height: 1.18;
+}
+
+.hero h1 span {
+  display: block;
+  white-space: nowrap;
+}
+
+.hero h1 .hit {
+  display: inline;
+  color: var(--red);
+}
+
+.hero-lead {
+  max-width: 30rem;
+  margin-top: 1.25rem;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  border: 3px solid var(--ink);
+  background: var(--ink);
+  color: #ffffff;
+  font-weight: 700;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: var(--yellow);
+  color: var(--ink);
+}
+
+.hero-board {
+  align-self: center;
+}
+
+.hero-board .mora-row {
+  --cell: clamp(2.4rem, 7vw, 4.75rem);
+}
+
+.hero-note {
+  margin-top: 1rem;
+  font-size: 0.875rem;
+  color: var(--mid);
+}
+
+/* 拍格：每個方格一拍 */
+
+.mora {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.mora-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem 0.8rem;
+}
+
+.stops {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.stops span {
+  display: grid;
+  place-items: center;
+  width: var(--cell);
+  height: var(--cell);
+  border: 3px solid var(--ink);
+  background: #ffffff;
+  font-size: calc(var(--cell) * 0.5);
+  font-weight: 700;
+  line-height: 1;
+}
+
+.stops .emphasis {
+  background: var(--red);
+  border-color: var(--red);
+  color: #ffffff;
+}
+
+.mora-row b {
+  padding: 0.1rem 0.5rem;
+  background: var(--yellow);
+  font-size: 0.9375rem;
+  white-space: nowrap;
+}
+
+.legend {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+}
+
+.legend::before {
+  content: "";
+  flex: none;
+  width: 1rem;
+  height: 1rem;
+  background: var(--red);
+}
+
+/* 首頁區塊 */
+
+.band {
+  padding: 2.5rem 0 3rem;
+  border-top: var(--rule) solid var(--ink);
+}
+
+.band-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin-bottom: 1.5rem;
+  font-size: clamp(1.6rem, 5vw, 2.4rem);
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.band-intro {
+  max-width: 40rem;
+  margin: -0.75rem 0 1.5rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.1rem 0.5rem;
+  border: 2px solid var(--ink);
+  background: #ffffff;
+  color: var(--ink);
+  font-size: 0.8125rem;
+  font-weight: 700;
+  line-height: 1.5;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.posts {
+  display: grid;
+  gap: 1rem;
+}
+
+.post-tile {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  border: 3px solid var(--ink);
+}
+
+.post-no {
+  display: grid;
+  place-items: center;
+  width: clamp(3.5rem, 16vw, 7rem);
+  background: var(--ink);
+  color: var(--yellow);
+  font-size: clamp(1.5rem, 7vw, 3rem);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.post-body {
+  padding: 1rem;
+}
+
+.post-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.75rem;
+  font-size: 0.875rem;
+  color: var(--mid);
+}
+
+.tag {
+  padding: 0 0.5rem;
+  background: var(--yellow);
+  color: var(--ink);
+  font-weight: 700;
+}
+
+.post-tile h3 {
+  margin: 0.4rem 0 0.5rem;
+  font-size: clamp(1.15rem, 3.6vw, 1.6rem);
+  line-height: 1.45;
+}
+
+.post-tile h3 a {
+  color: var(--ink);
+}
+
+.post-tile h3 a:hover {
+  color: var(--blue);
+}
+
+.is-planned {
+  border-style: dashed;
+  background: repeating-linear-gradient(135deg, #ffffff 0 10px, var(--grey) 10px 20px);
+}
+
+.is-planned .post-no {
+  background: transparent;
+  color: var(--mid);
+  border-right: 3px dashed var(--ink);
+}
+
+.is-planned .post-body,
+.is-planned.how-item,
+.is-planned.lab-item {
+  color: var(--ink);
+}
+
+.is-planned h3,
+.is-planned p {
+  background: #ffffff;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+.how,
+.lab {
+  display: grid;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+.how-item,
+.lab-item {
+  padding: 1rem;
+  border: 3px solid var(--ink);
+}
+
+.how-item h3,
+.lab-item h3 {
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+.how-glyph {
+  display: grid;
+  place-items: center;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-bottom: 0.9rem;
+  background: var(--ink);
+  color: #ffffff;
+  font-size: 1.9rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.how-item.fig {
+  background: var(--yellow);
+}
+
+.is-planned .how-glyph {
+  background: #ffffff;
+  color: var(--ink);
+  border: 3px dashed var(--ink);
+}
+
+.how-item.is-planned,
+.lab-item.is-planned {
+  border-style: dashed;
+}
+
+/* 頁尾 */
+
+.site-foot {
+  border-top: var(--rule) solid var(--ink);
+  background: var(--ink);
+  color: #ffffff;
+  font-size: 0.9375rem;
+}
+
+.site-foot .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.site-foot a {
+  color: var(--yellow);
+}
+
+.site-foot a:focus-visible {
+  outline-color: var(--yellow);
+}
+
+/* 文章頁 */
+
+.post-head {
+  padding: 2.25rem 0 2rem;
+  border-bottom: var(--rule) solid var(--ink);
+  background: var(--yellow);
+}
+
+.post-head .post-meta {
+  color: var(--ink);
+}
+
+.post-head .tag {
+  background: var(--ink);
+  color: #ffffff;
+}
+
+.post-head h1 {
+  margin-top: 0.75rem;
+  font-size: clamp(1.7rem, 6vw, 3rem);
+  font-weight: 900;
+  line-height: 1.3;
+}
+
+.post-desc {
+  margin-top: 0.9rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.7;
+}
+
+.post-content {
+  padding-top: 2.25rem;
+  padding-bottom: 3rem;
+  counter-reset: sec;
+}
+
+.post-content p + p,
+.post-content p + ol,
+.post-content ol + details,
+.post-content details + p,
+.post-content table + p,
+.post-content figure + p,
+.post-content p + figure,
+.post-content p + table,
+.post-content ul + p {
+  margin-top: 1.25rem;
+}
+
+.post-content p span[lang="ja"],
+.post-content li span[lang="ja"] {
+  background: linear-gradient(transparent 62%, var(--yellow) 62%);
+  font-weight: 700;
+}
+
+.post-content a span[lang="ja"] {
+  background: none;
+  font-weight: inherit;
+}
+
+.notice {
+  margin: 1.75rem 0 0;
+  padding: 1rem 1.1rem;
+  border-left: 0.75rem solid var(--ink);
+  background: var(--yellow);
+}
+
+.post-content section {
+  margin-top: 3.25rem;
+  padding-top: 1.25rem;
+  border-top: var(--rule) solid var(--ink);
+  counter-increment: sec;
+}
+
+.post-content h2 {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  gap: 0.9rem;
+  align-items: start;
+  margin-bottom: 1.25rem;
+  font-size: clamp(1.35rem, 4.5vw, 1.9rem);
+  font-weight: 900;
+  line-height: 1.4;
+}
+
+.post-content h2::before {
+  content: counter(sec, decimal-leading-zero);
+  display: grid;
+  place-items: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  background: var(--ink);
+  color: var(--yellow);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.post-content table {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 1.6;
+}
+
+.post-content table th,
+.post-content table td {
+  padding: 0.65rem 0.6rem;
+  border: 3px solid var(--ink);
+  text-align: left;
+  vertical-align: top;
+}
+
+.post-content table thead th {
+  background: var(--ink);
+  color: #ffffff;
+  font-size: 0.9375rem;
+}
+
+.post-content table td:first-child,
+.post-content table td:last-child,
+.post-content table th:last-child {
+  white-space: nowrap;
+}
+
+.post-content table td:first-child {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.mora-figure {
+  padding: 1.25rem 1rem;
+  border: 3px solid var(--ink);
+  background: var(--grey);
+}
+
+.mora-figure figcaption {
+  margin-top: 1rem;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+}
+
+.mora-figure .legend {
+  margin-top: 0.25rem;
+}
+
+.quiz {
+  padding-left: 1.6rem;
+}
+
+.quiz li + li {
+  margin-top: 0.75rem;
+}
+
+.quiz li::marker {
+  font-weight: 900;
+}
+
+details {
+  border: 3px solid var(--ink);
+}
+
+summary {
+  padding: 0.8rem 1rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+summary:hover {
+  background: var(--yellow);
+}
+
+details[open] summary {
+  background: var(--ink);
+  color: #ffffff;
+}
+
+details[open] summary:focus-visible {
+  outline-offset: 6px;
+}
+
+.answer {
+  padding: 1rem;
+}
+
+.post-content .takeaway {
+  padding: 1.5rem 1.1rem 1.75rem;
+  border-top: 0;
+  background: var(--ink);
+  color: #ffffff;
+}
+
+.takeaway h2 {
+  color: var(--yellow);
+}
+
+.post-content .takeaway h2::before {
+  background: var(--yellow);
+  color: var(--ink);
+}
+
+.post-content .takeaway p span[lang="ja"] {
+  background: none;
+  color: var(--yellow);
+}
+
+.refs {
+  padding-left: 1.3rem;
+  font-size: 0.9375rem;
+  line-height: 1.75;
+  overflow-wrap: anywhere;
+}
+
+.refs li + li {
+  margin-top: 0.6rem;
+}
+
+.refs + p {
+  font-size: 0.9375rem;
+}
+
+.post-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin-top: 3rem;
+  padding-top: 1.25rem;
+  border-top: 3px solid var(--ink);
+  font-weight: 700;
+}
+
+@media (min-width: 40rem) {
+  .wrap {
+    padding: 0 2rem;
+  }
+
+  .how {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lab {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .post-body {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .post-content table th,
+  .post-content table td {
+    padding: 0.8rem 1rem;
+  }
+
+  .mora-figure {
+    padding: 1.75rem 1.5rem;
+  }
+
+  .post-content .takeaway {
+    padding: 2rem 1.75rem 2.25rem;
+  }
+}
+
+@media (min-width: 64rem) {
+  .hero {
+    padding: 4rem 0 4.5rem;
+  }
+
+  .hero .wrap {
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 3rem;
+  }
+
+  .posts {
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+  }
+}
+
+/* Reviewed Markdown keeps its original semantic markup. */
+.post-content blockquote {margin:1.75rem 0;padding:1rem 1.1rem;border-left:.75rem solid var(--ink);background:var(--yellow)}
+.post-content .mora-row {--cell:clamp(1.9rem,9vw,3rem);gap:.3rem}
+.post-content .mora-row + .mora-row {margin-top:.9rem}
+.post-content .mora-row > span {display:grid;place-items:center;width:var(--cell);height:var(--cell);border:3px solid var(--ink);background:white;font-size:calc(var(--cell)*.5);font-weight:700;line-height:1}
+.post-content .mora-row > .emphasis {background:var(--red);border-color:var(--red);color:white}
+.post-content .mora-row b {margin-left:.3rem}
+.post-content details > p {margin:1rem}
+.post-content ul,.post-content ol {padding-left:1.5rem}
+.post-content li + li {margin-top:.7rem}
+.post-content ul {overflow-wrap:anywhere}
+.page-heading {padding-top:3rem;padding-bottom:2rem}
+.page-heading h1 {font-size:clamp(2rem,6vw,3rem);line-height:1.3;margin:.75rem 0}
+.page-heading + .post-content > h2 {margin-top:2.5rem;counter-increment:sec;border-top:6px solid;padding-top:1rem}
+.post-content {padding-top:2.25rem;padding-bottom:3rem}
+.review-banner {padding:.6rem 1rem;background:var(--ink);color:var(--yellow);font-size:.875rem}
+.site-nav [aria-current="page"] {text-decoration-thickness:4px;text-decoration-color:var(--red)}
+.posts:has(> :only-child) {grid-template-columns:1fr}
+@media (min-width:64rem) {.posts {grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:359px) {.post-content table th,.post-content table td {padding:.45rem .3rem}.post-content table td:first-child {font-size:1rem}}
