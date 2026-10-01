@@ -616,10 +616,10 @@ figure {
   font-size: 0.9375rem;
 }
 
-.post-content table td:first-child,
-.post-content table td:last-child,
-.post-content table th:last-child {
-  white-space: nowrap;
+.post-content table th,
+.post-content table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
 }
 
 .post-content table td:first-child {
